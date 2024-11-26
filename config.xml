@@ -3,9 +3,9 @@
     <name>MSME Platform</name>
     <description>A platform for MSMEs</description>
     <author email="ascent.admin.dev@onow.com" href="https://onow.ai">
-        ONOW AI
+        ONOW Ascent Incorporated
     </author>
-    <content src="https://assistance-user-app-v2.onrender.com/" />
+    <content src="https://ledgify.onow.ai/" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-navigation href="*" />
