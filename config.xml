@@ -1,15 +1,41 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Ledgify - MSME Platform</name>
+    <name>Ledgify</name>
     <description>A platform for MSMEs</description>
     <author email="ascent.admin.dev@onow.com" href="https://onow.ai">
         ONOW Ascent Incorporated
     </author>
     <content src="https://ledgify.onow.ai/" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
     <allow-navigation href="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
     <access origin="*" />
+
+    <!-- Android -->
+    <platform name="android">
+        <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi" />
+        <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi" />
+        <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi" />
+        <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi" />
+        <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
+        <splash src="resources/android/splash/drawable-mdpi-screen.png" density="mdpi" />
+        <splash src="resources/android/splash/drawable-hdpi-screen.png" density="hdpi" />
+        <splash src="resources/android/splash/drawable-xhdpi-screen.png" density="xhdpi" />
+        <splash src="resources/android/splash/drawable-xxhdpi-screen.png" density="xxhdpi" />
+        <splash src="resources/android/splash/drawable-xxxhdpi-screen.png" density="xxxhdpi" />
+    </platform>
+
+    <!-- iOS -->
+    <platform name="ios">
+        <icon src="resources/ios/icon/icon-60.png" width="60" height="60" />
+        <icon src="resources/ios/icon/icon-120.png" width="120" height="120" />
+        <icon src="resources/ios/icon/icon-180.png" width="180" height="180" />
+        <splash src="resources/ios/splash/splash-750x1334.png" width="750" height="1334" />
+        <splash src="resources/ios/splash/splash-1125x2436.png" width="1125" height="2436" />
+    </platform>
+
+    <!-- Windows -->
+    <platform name="windows">
+        <icon src="resources/windows/icon/Square150x150Logo.scale-100.png" width="150" height="150" />
+        <icon src="resources/windows/icon/Square44x44Logo.scale-100.png" width="44" height="44" />
+        <splash src="resources/windows/splash/SplashScreen.scale-100.png" width="620" height="300" />
+    </platform>
 </widget>
